@@ -1,0 +1,14 @@
+<html>
+
+<body>
+    <form method="post">
+        <label for="year">Enter the year:</label>
+        <input type="text" id="year" name="year">
+        <input type="submit" value="Check">
+    </form>
+    {% if leap %}
+    <p>The year is {{ leap }}</p>
+    {% endif %}
+</body>
+
+</html>
